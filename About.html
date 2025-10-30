@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عن المكتب</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <img class="img1" src="Assets/photos/Logo.jpg" alt="">
+                <a class="navbar-brand" href="" style=" font-weight:bold;font-size: 15px ;">الهئية العامة للموارد
+                    المائية فرع ذمار البيضاء</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " href="home.html" aria-current="page"> الصفحة الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="About.html" aria-current="page">عن المكتب</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">خدمات المكتب</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#" onclick="loadModal('Hafr')">طلب
+                                    ترخيص حفر آبار</a>
+                                <a class="dropdown-item" href="#" onclick="loadModal('ModalObjection')">اعتراض ترخيص</a>
+                                <a class="dropdown-item" href="#" onclick="loadModal('ModalComplain')">الشكاوى</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="Login.html" aria-current="page"> تسجيل الدخول</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <input class="form-control me-sm-2" type="text" placeholder="بحث" />
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            بحث
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="info-section">
+            <h2>من نحن</h2>
+            <p>مكتب الموارد المائية هو الجهة المسؤولة عن إدارة وتنظيم الموارد المائية في بلادنا. نعمل على ضمان توفير
+                المياه النظيفة والآمنة لجميع المواطنين، مع الحفاظ على استدامة مواردنا المائية للأجيال القادمة.</p>
+        </div>
+
+        <div class="info-section">
+            <h2>مهامنا</h2>
+            <ul>
+                <li>تخطيط وإدارة موارد المياه</li>
+                <li>حماية مصادر المياه من التلوث</li>
+                <li>تطوير البنية التحتية للمياه</li>
+                <li>إجراء الدراسات والأبحاث المائية</li>
+                <li>توعية المجتمع بأهمية ترشيد استهلاك المياه</li>
+            </ul>
+        </div>
+
+        <div class="info-section">
+            <h2>تواصل معنا</h2>
+            <p>للمزيد من المعلومات أو للاستفسارات، يرجى التواصل معنا:</p>
+            <p>البريد الإلكتروني: info@water-resources.gov</p>
+            <p>الهاتف: 1234-567-890</p>
+        </div>
+    </div>
+
+    <header class="d-flex justify-content-center align-items-center mt-5 header" style="height: 70px;">
+        <p>تم التصميم بواسطة : المهندس احمد الحاج</p>
+    </header>
+    <!-- مكان عرض الموديل -->
+    <div id="modalContainer"></div>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"> </script>
+</body>
+
+</html>

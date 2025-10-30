@@ -1,0 +1,1078 @@
+<!-- - واجهة المواطن - مودل طلب الحفر -->
+<div class="modal fade" id="Hafr" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog"
+    aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header header">
+                <h5 class="modal-title" id="modalTitleId">
+                    طلب ترخيص حفر
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row justify-content-center align-items-center g-2">
+
+                    <div class="col">
+                        <label> تاريخ الطلب </label>
+                        <input class="form-control" type="date" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label for="birthplace" class="form-label">نوع الطلب </label>
+                        <select class="form-select" id="birthplace" required>
+                            <option value="">جديد</option>
+                            <option value="EG">بديل</option>
+                            <option value="SA">تعميق</option>
+                            <option value="AE">صيانه</option>
+                            <option value="JO">تنظيف </option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label for="birthplace" class="form-label">الغرض من الطلب </label>
+                        <select class="form-select" id="birthplace" required>
+                            <option value="">زراعة</option>
+                            <option value="EG">شرب</option>
+                            <option value="SA">تجاريه</option>
+                            <option value="AE">متعدد</option>
+
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label for="birthplace" class="form-label"> نوع الحفر </label>
+                        <select class="form-select" id="birthplace" required>
+                            <option value="">يدوي</option>
+                            <option value="EG">ارتوازي</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label for="birthplace" class="form-label"> وضع القانوني للبئر </label>
+                        <select class="form-select" id="birthplace" required>
+                            <option value="">مرخص</option>
+                            <option value="EG">غير مرخص</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label> تاريخ الترخيص </label>
+                        <input class="form-control" type="date" name="" id="">
+                    </div>
+
+                    <div class="col-12 col-md-4 col-sm-4">
+                        <label> رقم المذكره</label>
+                        <input class=" form-control" type="number" name="" id="">
+                    </div>
+
+                    <div class="col-12 col-md-4 col-sm-4">
+                        <label> المرفقات</label>
+                        <input class=" form-control" type="file" name="" id="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    اغلاق
+                </button>
+                <button type="button" class="btn btn-primary header">ارسال الطلب</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ========== End Modals ========== -->
+
+<!--واجهة الادمن - مودل طلب الحفر -->
+<div class="modal fade" id="HafrAdmin" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog"
+    aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header header">
+                <h5 class="modal-title" id="modalTitleId">
+                    طلب ترخيص حفر
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row justify-content-center align-items-center g-2">
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label for="birthplace" class="form-label">اسم المواطن </label>
+                        <select class="form-select" id="birthplace" required>
+                            <option value="">جديد</option>
+                            <option value="EG">احمد محمد علي ناصر</option>
+                            <option value="SA">احمد عتيق محمد عمران</option>
+                            <option value="AE">احمد عبدالله احمد الحاج</option>
+                            <option value="JO">عبدالله محمد محمد فنجل </option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label> تاريخ الطلب </label>
+                        <input class="form-control" type="date" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label for="birthplace" class="form-label">نوع الطلب </label>
+                        <select class="form-select" id="birthplace" required>
+                            <option value="">جديد</option>
+                            <option value="EG">بديل</option>
+                            <option value="SA">تعميق</option>
+                            <option value="AE">صيانه</option>
+                            <option value="JO">تنظيف </option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label for="birthplace" class="form-label">الغرض من الطلب </label>
+                        <select class="form-select" id="birthplace" required>
+                            <option value="">زراعة</option>
+                            <option value="EG">شرب</option>
+                            <option value="SA">تجاريه</option>
+                            <option value="AE">متعدد</option>
+
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label for="birthplace" class="form-label"> نوع الحفر </label>
+                        <select class="form-select" id="birthplace" required>
+                            <option value="">يدوي</option>
+                            <option value="EG">ارتوازي</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label for="birthplace" class="form-label"> وضع القانوني للبئر </label>
+                        <select class="form-select" id="birthplace" required>
+                            <option value="">مرخص</option>
+                            <option value="EG">غير مرخص</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label> تاريخ الترخيص </label>
+                        <input class="form-control" type="date" name="" id="">
+                    </div>
+
+                    <div class="col-12 col-md-4 col-sm-4">
+                        <label> رقم المذكره</label>
+                        <input class=" form-control" type="number" name="" id="">
+                    </div>
+
+                    <div class="col-12 col-md-4 col-sm-4">
+                        <label> المرفقات</label>
+                        <input class=" form-control" type="file" name="" id="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    اغلاق
+                </button>
+                <button type="button" class="btn btn-primary header" onclick="loadModal('ModalSuccess')">حفظ </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ========== End Modals ========== -->
+
+
+
+<!-- - واجهة المواطن - مودل طلب اعتراض -->
+<div class="modal fade" id="ModalObjection" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
+    role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header header">
+                <h5 class="modal-title" id="modalTitleId">
+                    طلب اعتراض
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="col">
+                    <label> صورة الحوالة</label>
+                    <input class=" form-control" type="file" name="" id="">
+                </div>
+                <div class="row justify-content-center align-items-center g-2">
+
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label> سبب التقدم </label>
+                        <textarea class="form-control" type="text" name="" id=""></textarea>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label> اسم الموقع </label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label> اسم المنطقة </label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label> اسم العزلة </label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label for="Modiria">اسم المديرية</label>
+                        <select class="form-control form-select" id="Modiria" required>
+                            <option selected>المديرية</option>
+                            <option value="">ذمار</option>
+                            <option value="EG">جهران</option>
+                            <option value="SA">الحداء</option>
+                            <option value="AE">ضوران</option>
+                            <option value="JO">جبل الشرق</option>
+                            <option value="LB">عنس</option>
+                            <option value="IQ">وصاب العالي</option>
+                            <option value="MA">مغرب عنس</option>
+                            <option value="TN">وصاب السافل </option>
+                            <option value="KW">عتمه</option>
+                            <option value="QA">ميفعة عنس</option>
+
+                        </select>
+                    </div>
+                    <h2>بيانات المدعى علية</h2>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label> اسم المدعى عليه </label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label>رقم الهاتف </label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label>صفته الشخصية</label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    اغلاق
+                </button>
+                <button type="button" class="btn btn-primary header">ارسال الطلب</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ========== End Modals ========== -->
+
+<!-- - واجهة الادمن - مودل طلب اعتراض -->
+<div class="modal fade" id="ModalObjectionAdmin" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
+    role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header header">
+                <h5 class="modal-title" id="modalTitleId">
+                    طلب اعتراض
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="col">
+                    <label> صورة الحوالة</label>
+                    <input class=" form-control" type="file" name="" id="">
+                </div>
+                <div class="row justify-content-center align-items-center g-2">
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label for="birthplace" class="form-label">اسم المواطن </label>
+                        <select class="form-select" id="birthplace" required>
+                            <option value="">جديد</option>
+                            <option value="EG">احمد محمد علي ناصر</option>
+                            <option value="SA">احمد عتيق محمد عمران</option>
+                            <option value="AE">احمد عبدالله احمد الحاج</option>
+                            <option value="JO">عبدالله محمد محمد فنجل </option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label> سبب التقدم </label>
+                        <textarea class="form-control" type="text" name="" id=""></textarea>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label> اسم الموقع </label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label> اسم المنطقة </label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label> اسم العزلة </label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label for="Modiria">اسم المديرية</label>
+                        <select class="form-control form-select" id="Modiria" required>
+                            <option selected>المديرية</option>
+                            <option value="">ذمار</option>
+                            <option value="EG">جهران</option>
+                            <option value="SA">الحداء</option>
+                            <option value="AE">ضوران</option>
+                            <option value="JO">جبل الشرق</option>
+                            <option value="LB">عنس</option>
+                            <option value="IQ">وصاب العالي</option>
+                            <option value="MA">مغرب عنس</option>
+                            <option value="TN">وصاب السافل </option>
+                            <option value="KW">عتمه</option>
+                            <option value="QA">ميفعة عنس</option>
+
+                        </select>
+                    </div>
+                    <h2>بيانات المدعى علية</h2>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label> اسم المدعى عليه </label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label>رقم الهاتف </label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label>صفته الشخصية</label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    اغلاق
+                </button>
+                <button type="button" class="btn btn-primary header">ارسال الطلب</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ========== End Modals ========== -->
+
+<!-- - واجهة المواطن - مودل شكوى -->
+<div class="modal fade" id="ModalComplainAdmin" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
+    role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header header">
+                <h5 class="modal-title" id="modalTitleId">
+                    تقديم شكوى
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="col">
+                    <label> صورة الحوالة</label>
+                    <input class=" form-control" type="file" name="" id="">
+                </div>
+                <div class="col">
+                    <label for="birthplace" class="form-label">اسم المواطن </label>
+                    <select class="form-select" id="birthplace" required>
+                        <option value="">جديد</option>
+                        <option value="EG">احمد محمد علي ناصر</option>
+                        <option value="SA">احمد عتيق محمد عمران</option>
+                        <option value="AE">احمد عبدالله احمد الحاج</option>
+                        <option value="JO">عبدالله محمد محمد فنجل </option>
+                    </select>
+                </div>
+                <div class="row justify-content-center align-items-center g-2">
+
+                    <div class="col-12">
+                        <label> سبب التقدم </label>
+                        <textarea class="form-control" rows="5" type="text" name="" id=""></textarea>
+                    </div>
+
+                    <h2>بيانات المدعى علية</h2>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label> اسم المدعى عليه </label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label>رقم الهاتف </label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label>صفته الشخصية</label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    اغلاق
+                </button>
+                <button type="button" class="btn btn-primary header">ارسال الطلب</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ========== End Modals ========== -->
+
+<!-- - واجهة الادمن - مودل شكوى -->
+<div class="modal fade" id="ModalComplainadmin" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
+    role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header header">
+                <h5 class="modal-title" id="modalTitleId">
+                    تقديم شكوى
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="col">
+                    <label> صورة الحوالة</label>
+                    <input class=" form-control" type="file" name="" id="">
+                </div>
+                <div class="row justify-content-center align-items-center g-2">
+
+                    <div class="col-12">
+                        <label> سبب التقدم </label>
+                        <textarea class="form-control" rows="5" type="text" name="" id=""></textarea>
+                    </div>
+
+                    <h2>بيانات المدعى علية</h2>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label> اسم المدعى عليه </label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label>رقم الهاتف </label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-6">
+                        <label>صفته الشخصية</label>
+                        <input class="form-control" type="text" name="" id="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    اغلاق
+                </button>
+                <button type="button" class="btn btn-primary header">ارسال الطلب</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ========== End Modals ========== -->
+
+<!-- نموذج تسجيل مستخدمين -->
+<div class="modal fade" id="ModalAddUser" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-warning ">
+                <h5 class="modal-title" id="modalTitleId">
+                    بيانات المستخدمين
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" name="formId1" id="formId1" placeholder="" />
+                        <label for="formId1">اسم المستخدم</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" name="formId1" id="formId1" placeholder="" />
+                        <label for="formId1">كلمة المرور</label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    إغلاق
+                </button>
+                <button type="button" class="btn btn-warning" onclick="loadModal('ModalSuccess')">حفظ</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- مودل النجاح -->
+<div class="modal fade" id="ModalSuccess" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-success">
+                <h5 class="modal-title" id="modalTitleId">
+                    رسالة تأكيد
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    تمت العملية بنجاح
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success btn-lg" data-bs-dismiss="modal">
+                    حسنا
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- مودل الحذف -->
+<div class="modal fade" id="ModalDelete" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-danger">
+                <h5 class="modal-title" id="modalTitleId">
+                    رسالة تأكيد
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    هل انت متأكد من عملية الحذف؟
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    لا
+                </button>
+                <button type="button" class="btn btn-danger" onclick="loadModal('ModalSuccess')">نعم</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- مودل اضافة المواطنين -->
+<div class="modal fade" id="ModalAddCitizen" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-warning">
+                <h5 class="modal-title" id="modalTitleId">
+                    المواطنين
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+
+                <div class="row">
+
+
+                    <h2 class="title text-center">بيانات المواطنين</h2>
+                    <div class="row justify-content-center align-items-center g-2">
+                        <div class="input-field col">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="الاسم" />
+                        </div>
+                        <div class="input-field col">
+                            <i class="fas fa-envelope"></i>
+                            <input type="number" placeholder="رقم البطاقة" />
+                        </div>
+                        <div class="input-field col">
+                            <i class="fas fa-envelope"></i>
+                            <input type="number" placeholder="رقم الهاتف" />
+                        </div>
+                        <div class="input-field col">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" placeholder="كلمة المرور" />
+                        </div>
+
+                        <div class="input-field col">
+                            <label for="birthplace"><i class="fa fa-city"></i></label>
+                            <select class="form-select bg-transparent border-0" id="birthplace" required>
+                                <option selected>المحافظة</option>
+                                <option value="">ذمار</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center g-2">
+                        <div class="input-field col">
+                            <label for="Modiria"><i class="fa fa-tree-city"></i></label>
+                            <select class="form-select bg-transparent border-0" id="Modiria" required>
+                                <option selected>المديرية</option>
+                                <option value="">ذمار</option>
+                                <option value="EG">جهران</option>
+                                <option value="SA">الحداء</option>
+                                <option value="AE">ضوران</option>
+                                <option value="JO">جبل الشرق</option>
+                                <option value="LB">عنس</option>
+                                <option value="IQ">وصاب العالي</option>
+                                <option value="MA">مغرب عنس</option>
+                                <option value="TN">وصاب السافل </option>
+                                <option value="KW">عتمه</option>
+                                <option value="QA">ميفعة عنس</option>
+
+                            </select>
+                        </div>
+                        <div class="input-field col">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="العزلة" />
+                        </div>
+                        <div class="input-field col">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="المنطقة" />
+                        </div>
+                        <div class="input-field col">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="الموقع" />
+                        </div>
+                    </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        إغلاق
+                    </button>
+                    <button type="button" class="btn btn-warning" onclick="loadModal('ModalSuccess')">حفظ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--  مودل استعراض طلب حفر -->
+<div class="modal fade" id="ModalShowHafr" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <h5 class="modal-title " id="modalTitleId">
+                    استعراض طلب ترخيص
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <h4>بيانات طلب ترخيص...</h4>
+                    <p class="text-"> ادخل بيانات بشكل صحيح.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-7 border rounded-1 p-3 mb-3">
+                            <div class="row">
+
+                                <div class="col-12 col-md-4 col-sm-4">
+                                    <label> الاسم </label>
+                                    <input class="form-control" type="text" name="" id="">
+                                </div>
+                                <div class="col-12 col-md-4 col-sm-4">
+                                    <label> رقم البطاقة</label>
+                                    <input class=" form-control " type="number" name="" id="">
+                                </div>
+                                <div class="col-12 col-md-4 col-sm-4">
+                                    <label> رقم الهاتف</label>
+                                    <input class=" form-control" type="number" name="" id="">
+                                </div>
+                                <div class="col-12 col-md-6 col-sm-6">
+                                    <label> تاريخ الطلب </label>
+                                    <input class="form-control" type="date" name="" id="">
+                                </div>
+                                <div class="col-12 col-md-6 col-sm-6">
+                                    <label for="birthplace" class="form-label">المحافظة </label>
+                                    <select class="form-select" id="birthplace" required>
+                                        <option value="">ذمار</option>
+
+                                    </select>
+                                </div>
+
+                                <div class="col-12 col-md-6 col-sm-6">
+                                    <label for="birthplace" class="form-label">المديريه </label>
+                                    <select class="form-select" id="birthplace" required>
+                                        <option value="">ذمار</option>
+                                        <option value="EG">جهران</option>
+                                        <option value="SA">الحداء</option>
+                                        <option value="AE">ضوران</option>
+                                        <option value="JO">جبل الشرق</option>
+                                        <option value="LB">عنس</option>
+                                        <option value="IQ">وصاب العالي</option>
+                                        <option value="MA">مغرب عنس</option>
+                                        <option value="TN">وصاب السافل </option>
+                                        <option value="KW">عتمه</option>
+                                        <option value="QA">ميفعة عنس</option>
+
+                                    </select>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-sm-4">
+                                    <label>العزله </label>
+                                    <input class="form-control" type="text" name="" id="">
+                                </div>
+                                <div class="col-12 col-md-4 col-sm-4">
+                                    <label> المنطقة</label>
+                                    <input class="form-control" type="text" name="" id="">
+                                </div>
+                                <div class="col-12 col-md-4 col-sm-4">
+                                    <label> الموقع</label>
+                                    <input class=" form-control" type="text" name="" id="">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 border rounded-1 p-3 mb-3 mx-2">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-sm-6">
+                                    <label for="birthplace" class="form-label">نوع الطلب </label>
+                                    <select class="form-select" id="birthplace" required>
+                                        <option value="">جديد</option>
+                                        <option value="EG">بديل</option>
+                                        <option value="SA">تعميق</option>
+                                        <option value="AE">صيانه</option>
+                                        <option value="JO">تنظيف </option>
+
+
+                                    </select>
+                                </div>
+                                <div class="col-12 col-md-6 col-sm-6">
+                                    <label for="birthplace" class="form-label">الغرض من الطلب </label>
+                                    <select class="form-select" id="birthplace" required>
+                                        <option value="">زراعة</option>
+                                        <option value="EG">شرب</option>
+                                        <option value="SA">تجاريه</option>
+                                        <option value="AE">متعدد</option>
+
+                                    </select>
+                                </div>
+                                <div class="col-12 col-md-6 col-sm-6">
+                                    <label for="birthplace" class="form-label"> نوع الحفر </label>
+                                    <select class="form-select" id="birthplace" required>
+                                        <option value="">يدوي</option>
+                                        <option value="EG">ارتوازي</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-md-6 col-sm-6">
+                                    <label for="birthplace" class="form-label"> وضع القانوني للبئر </label>
+                                    <select class="form-select" id="birthplace" required>
+                                        <option value="">مرخص</option>
+                                        <option value="EG">غير مرخص</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-md-6 col-sm-6">
+                                    <label> تاريخ الترخيص </label>
+                                    <input class="form-control" type="date" name="" id="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> رقم المذكره</label>
+                                <input class=" form-control" type="number" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> المرفقات</label>
+                                <input class=" form-control" type="file" name="" id="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    إغلاق
+                </button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--  مودل استعراض  الاعتراضات -->
+<div class="modal fade" id="ModalShowObjection" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <h5 class="modal-title " id="modalTitleId">
+                    استعراض طلب اعتراض
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <h4>بيانات طلب الاعتراض...</h4>
+                    <div class="row">
+
+
+                        <h2>بيانات مقدم الاعتراض</h2>
+                        <div class="row">
+
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> الاسم </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> رقم البطاقة</label>
+                                <input class=" form-control " type="number" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> رقم الهاتف</label>
+                                <input class=" form-control" type="number" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label> تاريخ الطلب </label>
+                                <input class="form-control" type="date" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label for="birthplace" class="form-label">المحافظة </label>
+                                <select class="form-select" id="birthplace" required>
+                                    <option value="">ذمار</option>
+
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label for="birthplace" class="form-label">المديريه </label>
+                                <select class="form-select" id="birthplace" required>
+                                    <option value="">ذمار</option>
+                                    <option value="EG">جهران</option>
+                                    <option value="SA">الحداء</option>
+                                    <option value="AE">ضوران</option>
+                                    <option value="JO">جبل الشرق</option>
+                                    <option value="LB">عنس</option>
+                                    <option value="IQ">وصاب العالي</option>
+                                    <option value="MA">مغرب عنس</option>
+                                    <option value="TN">وصاب السافل </option>
+                                    <option value="KW">عتمه</option>
+                                    <option value="QA">ميفعة عنس</option>
+
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label>العزله </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> المنطقة</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> الموقع</label>
+                                <input class=" form-control" type="text" name="" id="">
+                            </div>
+
+
+                        </div>
+
+
+
+
+                        <div class="row border rounded-1 p-3 mb-3 mx-2">
+                            <h2>بيانات المدعى علية</h2>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label> اسم المدعى عليه </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label>رقم الهاتف </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label>صفته الشخصية</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                        </div>
+
+                        <div class="row border rounded-1 p-3 mb-3 mx-2">
+                            <h2>بيانات النزاع</h2>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label> سبب التقدم </label>
+                                <textarea class="form-control" type="text" name="" id=""></textarea>
+
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label> اسم الموقع </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label> اسم المنطقة </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label> اسم العزلة </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label for="Modiria">اسم المديرية</label>
+                                <select class="form-control form-select" id="Modiria" required>
+                                    <option selected>المديرية</option>
+                                    <option value="">ذمار</option>
+                                    <option value="EG">جهران</option>
+                                    <option value="SA">الحداء</option>
+                                    <option value="AE">ضوران</option>
+                                    <option value="JO">جبل الشرق</option>
+                                    <option value="LB">عنس</option>
+                                    <option value="IQ">وصاب العالي</option>
+                                    <option value="MA">مغرب عنس</option>
+                                    <option value="TN">وصاب السافل </option>
+                                    <option value="KW">عتمه</option>
+                                    <option value="QA">ميفعة عنس</option>
+
+                                </select>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    إغلاق
+                </button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  مودل استعراض  الشكاويئ -->
+<div class="modal fade" id="ModalShowObjection" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <h5 class="modal-title " id="modalTitleId">
+                    استعراض طلب اعتراض
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <h4>بيانات طلب الاعتراض...</h4>
+                    <div class="row">
+
+
+                        <h2>بيانات مقدم الاعتراض</h2>
+                        <div class="row">
+
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> الاسم </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> رقم البطاقة</label>
+                                <input class=" form-control " type="number" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> رقم الهاتف</label>
+                                <input class=" form-control" type="number" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label> تاريخ الطلب </label>
+                                <input class="form-control" type="date" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label for="birthplace" class="form-label">المحافظة </label>
+                                <select class="form-select" id="birthplace" required>
+                                    <option value="">ذمار</option>
+
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label for="birthplace" class="form-label">المديريه </label>
+                                <select class="form-select" id="birthplace" required>
+                                    <option value="">ذمار</option>
+                                    <option value="EG">جهران</option>
+                                    <option value="SA">الحداء</option>
+                                    <option value="AE">ضوران</option>
+                                    <option value="JO">جبل الشرق</option>
+                                    <option value="LB">عنس</option>
+                                    <option value="IQ">وصاب العالي</option>
+                                    <option value="MA">مغرب عنس</option>
+                                    <option value="TN">وصاب السافل </option>
+                                    <option value="KW">عتمه</option>
+                                    <option value="QA">ميفعة عنس</option>
+
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label>العزله </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> المنطقة</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> الموقع</label>
+                                <input class=" form-control" type="text" name="" id="">
+                            </div>
+
+
+                        </div>
+
+
+
+
+                        <div class="row border rounded-1 p-3 mb-3 mx-2">
+                            <h2>بيانات المدعى علية</h2>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label> اسم المدعى عليه </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label>رقم الهاتف </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label>صفته الشخصية</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                        </div>
+
+                        <div class="row border rounded-1 p-3 mb-3 mx-2">
+                            <h2>بيانات النزاع</h2>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label> سبب التقدم </label>
+                                <textarea class="form-control" type="text" name="" id=""></textarea>
+
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label> اسم الموقع </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label> اسم المنطقة </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label> اسم العزلة </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label for="Modiria">اسم المديرية</label>
+                                <select class="form-control form-select" id="Modiria" required>
+                                    <option selected>المديرية</option>
+                                    <option value="">ذمار</option>
+                                    <option value="EG">جهران</option>
+                                    <option value="SA">الحداء</option>
+                                    <option value="AE">ضوران</option>
+                                    <option value="JO">جبل الشرق</option>
+                                    <option value="LB">عنس</option>
+                                    <option value="IQ">وصاب العالي</option>
+                                    <option value="MA">مغرب عنس</option>
+                                    <option value="TN">وصاب السافل </option>
+                                    <option value="KW">عتمه</option>
+                                    <option value="QA">ميفعة عنس</option>
+
+                                </select>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    إغلاق
+                </button>
+
+            </div>
+        </div>
+    </div>
+</div>

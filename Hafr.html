@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log IN</title>
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.min.css">
+
+    <style>
+        header {
+            background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        label {
+            color: black;
+            font-weight: bold;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+
+        img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin: 2px;
+            overflow: hidden;
+            box-sizing: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <img class="img1" src="IMG-20240117-WA0006.jpg" alt="">
+                <a class="navbar-brand" href="" style=" font-weight:bold;font-size: 15px ;">الهئية العامة للموارد
+                    المائية فرع ذمار البيضاء</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " href="home.html" aria-current="page"> الصفحة الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="ww.html" aria-current="page">اخبار المكتب</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">طلب ترخيص</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="index2.html" aria-current="page"> تسجيل الدخول</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">اللغه</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">العربية</a>
+                                <a class="dropdown-item" href="#">الانجليزي</a>
+
+
+                            </div>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+            <form class="d-flex">
+                <input class="form-control me-2 " type="text" placeholder="بحث">
+                <button class="btn btn-primary " type="button" style="width: 30%;">بحث<i
+                        class="fa fa-search"></i></button>
+            </form>
+        </nav>
+    </header>
+
+    <div class="container mx-auto mt-5 mb-5 ">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs " id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                    role="tab" aria-controls="home" aria-selected="true">
+                    طلب ترخيص
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                    role="tab" aria-controls="profile" aria-selected="false">
+
+                </button>
+            </li>
+
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content bg-light border rounded-1 py-4 px-3">
+            <div class="tab-pane active " id="home" role="tabpanel" aria-labelledby="home-tab">
+                <h4>بيانات طلب ترخيص...</h4>
+                <p class="text-"> ادخل بيانات بشكل صحيح.</p>
+                <div class="row">
+                    <div class="col-12 col-md-7 border rounded-1 p-3 mb-3">
+                        <div class="row">
+
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> الاسم </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> رقم البطاقة</label>
+                                <input class=" form-control " type="number" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> رقم الهاتف</label>
+                                <input class=" form-control" type="number" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label> تاريخ الطلب </label>
+                                <input class="form-control" type="date" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label for="birthplace" class="form-label">المحافظة </label>
+                                <select class="form-select" id="birthplace" required>
+                                    <option value="">ذمار</option>
+
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label for="birthplace" class="form-label">المديريه </label>
+                                <select class="form-select" id="birthplace" required>
+                                    <option value="">ذمار</option>
+                                    <option value="EG">جهران</option>
+                                    <option value="SA">الحداء</option>
+                                    <option value="AE">ضوران</option>
+                                    <option value="JO">جبل الشرق</option>
+                                    <option value="LB">عنس</option>
+                                    <option value="IQ">وصاب العالي</option>
+                                    <option value="MA">مغرب عنس</option>
+                                    <option value="TN">وصاب السافل </option>
+                                    <option value="KW">عتمه</option>
+                                    <option value="QA">ميفعة عنس</option>
+
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label>العزله </label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> المنطقة</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> الموقع</label>
+                                <input class=" form-control" type="text" name="" id="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-12 col-md-4 border rounded-1 p-3 mb-3">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label for="birthplace" class="form-label">نوع الطلب </label>
+                                <select class="form-select" id="birthplace" required>
+                                    <option value="">جديد</option>
+                                    <option value="EG">بديل</option>
+                                    <option value="SA">تعميق</option>
+                                    <option value="AE">صيانه</option>
+                                    <option value="JO">تنظيف </option>
+
+
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label for="birthplace" class="form-label">الغرض من الطلب </label>
+                                <select class="form-select" id="birthplace" required>
+                                    <option value="">زراعة</option>
+                                    <option value="EG">شرب</option>
+                                    <option value="SA">تجاريه</option>
+                                    <option value="AE">متعدد</option>
+
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label for="birthplace" class="form-label"> نوع الحفر </label>
+                                <select class="form-select" id="birthplace" required>
+                                    <option value="">يدوي</option>
+                                    <option value="EG">ارتوازي</option>
+
+
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label for="birthplace" class="form-label"> وضع القانوني للبئر </label>
+                                <select class="form-select" id="birthplace" required>
+                                    <option value="">مرخص</option>
+                                    <option value="EG">غير مرخص</option>
+
+
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6">
+                                <label> تاريخ الترخيص </label>
+                                <input class="form-control" type="date" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 border rounded-1 p-3 mb-5">
+                        <div class="row">
+
+                            <div class="col-12 col-md-4 col-sm-4">
+                                <label> رقم المذكره</label>
+                                <input class=" form-control" type="number" name="" id="">
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 col-sm-4 border rounded-2 p-3 mb-3">
+                        <p>المرفقات</p>
+                        <div class="row">
+
+                            <div class="col-6">
+                                <label for="Male">يوجد</label>
+                                <input type="radio" name="Gender" id="Male">
+                            </div>
+                            <div class="col-6">
+                                <label for="Female">لايوجد</label>
+                                <input type="radio" name="Gender" id="Female">
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-1"></div>
+                    <div class="col-12 col-md-7 col-sm-7 border rounded-2 p-3 mb-3">
+                        <div class="row ">
+                            <div class="col-7">
+                                <p class="">الموافقة على شروط الاستخدام</p>
+                            </div>
+                            <div class="col-1"></div>
+                            <div class="col-4">
+                                <input type="checkbox" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid">
+                    <button class="btn btn-primary"> ارسال</button>
+                </div>
+            </div>
+
+            <div class="tab-pane " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <h4>مرحباً بعودتك "سجل دخولك الان"...</h4>
+                <div class="container border rounded-2 p-3 mt-5 w-75">
+                    <div class=" col-12">
+                        <label>البريد الالكتروني</label>
+                        <input class="form-control " type="email" name="" id="">
+                    </div>
+                    <div class=" col-12">
+                        <label> كلمة المرور</label>
+                        <input class="form-control " type="password" name="" id="">
+                    </div>
+                    <div class="d-grid mt-3">
+                        <button class="btn btn-primary"> تسجيل الدخول</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <div class="container mx-auto mt-5 mb-5 text-center bg-light p-3 border rounded-2 ">
+        <button class="btn btn-primary "><i class="fab fa-lg fa-facebook  p-1 rounded-5"></i></button>
+        <button class=" btn btn-info "><i class=" fab fa-lg fa-twitter text-white p-1"></i></button>
+        <p class="mt-5 " dir="ltr">All rights Reserved. Mustafa Moh'd Alqershi 2024 &copy;</p>
+    </div>
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
