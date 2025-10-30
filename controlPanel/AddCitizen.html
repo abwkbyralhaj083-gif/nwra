@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة التحكم</title>
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../Css/style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <img class="img1" src="../Assets/photos/Logo.jpg" alt="">
+                <a class="navbar-brand" href="" style=" font-weight:bold;font-size: 15px ;">الهئية العامة للموارد
+                    المائية فرع ذمار البيضاء</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " href="AddUsers.html" aria-current="page"> تسجيل مستخدمين</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="AddCitizen.html" aria-current="page">تسجيل مواطنين</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">خدمات المكتب</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="Hafr.html">طلب
+                                    ترخيص حفر آبار</a>
+                                <a class="dropdown-item" href="Objection.html">اعتراض ترخيص</a>
+                                <a class="dropdown-item" href="Complain.html">الشكاوى</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="Login.html" aria-current="page"> تسجيل الدخول</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <input class="form-control me-sm-2" type="text" placeholder="بحث" />
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            بحث
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+
+
+        </nav>
+    </header>
+
+
+    <div class="d-flex">
+        <div id="sidebar" class="sidebar"></div>
+        <div class="container mt-5">
+            <h2 class="text-center mb-4">إدارة المواطنين</h2>
+
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h3>قائمة المواطنين</h3>
+                <input class="form-control w-50" type="text" placeholder="بحث" />
+                <button class="btn btn-outline-success my-2 my-sm-0" type="button">
+                    بحث
+                </button>
+                <button class="btn btn-primary mx-3" onclick="loadModal('ModalAddCitizen')">
+                    <i class="fas fa-plus"></i> إضافة مواطن
+                </button>
+
+            </div>
+
+            <table class="table table-bordered text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th class="col-1">م</th>
+                        <th>اسم المواطن</th>
+                        <th>رقم الهاتف</th>
+                        <th>احداث</th>
+                    </tr>
+                </thead>
+                <tbody id="collegeTableBody">
+                    <tr>
+                        <td>1</td>
+                        <td>احمد علي محمد الحاج</td>
+                        <td>777888999</td>
+                        <td>
+                            <button type="button" class="btn btn-danger" onclick="loadModal('ModalDelete')">حذف</button>
+                            <button type="button" class="btn btn-warning"
+                                onclick="loadModal('ModalAddCitizen')">تعديل</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>ناصر محمد عتيق منصر</td>
+                        <td>777555985</td>
+                        <td>
+                            <button type="button" class="btn btn-danger" onclick="loadModal('ModalDelete')">حذف</button>
+                            <button type="button" class="btn btn-warning"
+                                onclick="loadModal('ModalAddCitizen')">تعديل</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    <footer class="d-flex justify-content-center align-items-center mt-5 header" style="height: 70px;">
+        <p></p>
+    </footer>
+
+    <!-- مكان عرض الموديل -->
+    <div id="modalContainer"></div>
+
+
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/app.js"> </script>
+</body>
+
+</html>
